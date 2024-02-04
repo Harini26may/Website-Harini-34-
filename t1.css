@@ -1,0 +1,271 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body
+{
+	width:100%;
+	background-image: url(https://i.pinimg.com/736x/f2/05/52/f2055287869555b7efa535223ddc059a.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+nav{
+	width: 100%;
+	background-color: rosybrown;
+	height: 80px;
+	line-height: 80px;
+	padding:0px 120px;
+}
+nav h1{
+	font-size: 32px;
+	font-family: lucida fax;
+	color: darkslategray;
+	text-transform: uppercase;
+	float: left;
+}
+nav ul{
+	float: right;
+}
+nav ul li{
+	float: left;
+	list-style: none;
+	position: relative;
+}
+nav ul li a{
+	text-decoration: none;
+	font-family: sans-serif;
+	color: #ADD8E6;
+	font-size: 17px;
+	padding: 5px 16px;
+	display: block;
+}
+nav ul li ul{
+	position: absolute;
+	display: none;
+	background-color:rosybrown;
+	border-radius:0px 0px 5px 5px;
+}
+nav ul li ul li{
+	display: block;
+	line-height: 1;
+	width: 120px;
+	border-radius: 6px;
+	padding: 3px;
+}
+nav ul li ul li a{
+	padding: 10px 16px;
+}
+nav ul li ul li a:hover{
+	background-color: mistyrose;
+}
+nav ul li a:hover{
+	background-color: #FFE4E1;
+}
+nav ul li:hover ul{
+	display: block;
+}
+.home{
+	width:1000px;
+	height: auto;
+	margin: auto;
+	color: white;
+	position: relative;
+}
+.home p{
+	padding-left: 340px;
+	padding-bottom: 25px;
+	font-size: 15px;
+	font-family: arial;
+	color: thistle;
+	letter-spacing: 1.2px;
+	line-height: 30px;
+}
+.home h1{
+	font-family: Times New Roman;
+	font-size: 80px;
+	padding-left: 330px;
+	letter-spacing: 2px;
+}
+.home h6{
+	padding-top: 90px;
+	padding-left: 300px;
+	padding-bottom: 15px;
+	font-family: sans-serif;
+	font-size: 20px;
+	color: tan;
+	letter-spacing: 1.2px;
+}
+.about{
+	width:1000px;
+	height: auto;
+	margin: auto;
+	color: white;
+	position: relative;
+}
+.about h1{
+	font-family: Times New Roman;
+	font-size: 70px;
+	padding-top:10px ;
+	padding-left: 10px;
+	letter-spacing: 2px;
+}
+.about p{
+	padding-left: 50px;
+	padding-bottom: 25px;
+	font-size: 20px;
+	font-family: arial;
+	letter-spacing: 1.2px;
+	line-height: 30px;
+}
+.about h6{
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	font-family: sans-serif;
+	font-size: 30px;
+	color: tan;
+	letter-spacing: 1.2px;
+}
+.about ul li{
+	padding-left: 30px;
+	padding-bottom: 10px;
+	font-size: 15px;
+	font-family: arial;
+	color: thistle;
+	letter-spacing: 1.2px;
+	line-height: 30px;
+}
+.contact{
+	padding-left: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.box1, .box2, .box3{
+	width: 30%;
+	height: 25%;
+	background: radial-gradient(circle at top left, transparent 250px, darkkhaki), 
+	            radial-gradient(circle at bottom right, transparent 300px, darkkhaki);
+	float: left;
+	margin:15px;
+	padding:50px;
+	color: black;
+	text-align: center;
+	transition: .3s ease-in-out;
+}
+.contact fab{
+	margin: 1.2rem 0 .3rem 0;
+}
+.contact h3{
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	font-family: sans-serif;
+	font-size: 20px;
+	color: tan;
+	letter-spacing: 1.2px;
+}
+.box1 p, .box2 p,.box3 p{
+	line-height: 1.6;
+	padding: 0 10px;
+	color: thistle;
+}
+.contact h1{
+	font-family: Times New Roman;
+	font-size: 60px;
+	padding-top:10px ;
+	padding-left: 10px;
+	letter-spacing: 2px;
+	text-align: center;
+	color: white;
+	position: relative;
+}
+.personal {
+	font-family: Times New Roman;
+	font-size: 50px;
+	padding-top:10px ;
+	padding-left: 100px;
+	letter-spacing: 2px;
+	color: white;
+	position: relative;
+	text-align: center;
+}
+.div1{
+  padding-left: 40px;
+  padding-top: 20px;
+  text-align:left;
+  font-size:25;
+  font-family: 'Times New Roman', Times, serif;
+  color:thistle;
+  
+}
+.div2{
+  padding-left: 100px;
+  padding-top: 20px;
+  text-align:left;
+  font-size:25;
+  font-family: 'Times New Roman', Times, serif;
+  color:thistle;
+}
+.personal h5{
+	padding-top: 10px;
+	padding-bottom: 15px;
+	font-family: sans-serif;
+	font-size: 20px;
+	color: tan;
+	letter-spacing: 1.2px;
+}
+.academy{
+	padding-left: 400px;
+	padding-bottom: 200px;
+}
+.academy h5{
+	padding-top: 10px;
+	padding-bottom: 15px;
+	font-family: sans-serif;
+	font-size: 20px;
+	color: tan;
+	letter-spacing: 1.2px;
+}
+.academy h2{
+	font-family: Times New Roman;
+	font-size: 60px;
+	padding-top:10px ;
+	padding-left: 10px;
+	letter-spacing: 2px;
+	color: white;
+	position: relative;
+}
+.div3{
+  padding-left: 100px;
+  padding-top: 20px;
+  text-align:left;
+  font-size:25;
+  font-family: 'Times New Roman', Times, serif;
+  color:thistle;
+}
+.extra h2{
+	font-family: Times New Roman;
+	font-size: 60px;
+	padding-top:10px ;
+	padding-left: 100px;
+	letter-spacing: 2px;
+	color: white;
+	position: relative;
+}
+.extra h5{
+	padding-top: 30px;
+	padding-bottom: 15px;
+	font-family: sans-serif;
+	font-size: 20px;
+	color: tan;
+	letter-spacing: 1.2px;
+}
+.extra{
+  padding-left: 100px;
+  padding-top: 20px;
+  text-align:left;
+  font-size:25;
+  font-family: 'Times New Roman', Times, serif;
+  color:thistle;
+}
